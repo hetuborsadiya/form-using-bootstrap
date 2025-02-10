@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header text-center  text-dark">
+                        <h4>Responsive Registration Form</h4>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="fa-envelope"></i></span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                                    <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="confirm-password" class="form-label">Re-type Password</label>
+                                <div class="input-group">
+                                    <span class="input-group-text"><i class="bi bi-lock"></i></span>
+                                    <input type="password" class="form-control" id="confirm-password" placeholder="Re-type your password">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="first-name" class="form-label">First Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="fa fa-user"></i></span>
+                                        <input type="text" class="form-control"  placeholder="First Name">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label for="last-name" class="form-label">Last Name</label>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="bi bi-person"></i></span>
+                                        <input type="text" class="form-control"  placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">Gender</label><br>
+                                <input type="radio" name="gender" value="male"> Male
+                                <input type="radio" name="gender" value="female"> Female
+                            </div>
+                            <div class="mb-3">
+                                <label for="country" class="form-label">Select a country</label>
+                                <select class="form-select" id="country">
+                                    <option selected>Choose...</option>
+                                    <option value="1">United States</option>
+                                    <option value="2">Canada</option>
+                                    <option value="3">United Kingdom</option>
+                                </select>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="terms">
+                                <label class="form-check-label" for="terms">I agree with terms and conditions</label>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <label class="form-check-label" for="newsletter">I want to receive the newsletter</label>
+                            </div>
+                            <button type="submit" class="btn btn-warning w-100">Register</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>    
+</body>
+
+</html>
